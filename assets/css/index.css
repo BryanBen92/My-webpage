@@ -1,0 +1,48 @@
+*{
+    background: #754c4c;
+}
+.nav-bar{
+    display: flex;
+    height: 50px;
+    background: #4C1336;
+}
+.nav-bar .logo img{
+    height: 50px;
+    width: 300px;
+}
+.items{
+    background: #4C1336;
+    align-items: flex-start;
+    margin: auto;
+}
+.items a{
+    background: #4C1336;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.pic img{
+    height: 500px;
+    border-radius: 10px;
+    border: #754c4c solid;
+}
+.pic{
+    float: right;
+    margin-right: 400px;
+}
+.description{
+    color: white;
+}
+.description h1{
+    font-size: 90px;
+}
+.description p{
+    font-size: 40px;
+}
+.body{
+    display: flex;
+    align-items: center;
+    margin: 60px 0px 0px 400px;
+    justify-content: space-between;
+}
