@@ -1,0 +1,169 @@
+*{
+    background: #754c4c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    height: 50px;
+    background: #4C1336;
+}
+.nav-bar .logo img{
+    height: 50px;
+    width: 300px;
+}
+.items{
+    background: #4C1336;
+    align-items: flex-start;
+    margin: auto;
+}
+.items a{
+    background: #4C1336;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.pic img{
+    height: 500px;
+    border-radius: 10px;
+    border: #754c4c solid;
+}
+.pic{
+    float: right;
+    margin-right: 400px;
+}
+.description{
+    color: white;
+}
+.description h1{
+    font-size: 90px;
+}
+.description p{
+    font-size: 40px;
+}
+.body{
+    display: flex;
+    align-items: center;
+    margin: 60px 0px 0px 400px;
+    justify-content: space-between;
+    background: #754c4c;
+    
+}
+.contact-info{
+    width: 100%;
+    height: 110vh;
+    justify-content: space-around;
+    background-color: white;
+}
+.contacts{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+}
+.address{
+    height: 100px;
+    width: 200px;
+    margin: 80px 0px 0px;
+    background-color: white;
+}
+.phone{
+    height: 100px;
+    width: 200px;
+    margin: 80px 0px 0px;
+    background-color: white;
+}
+.email{
+    height: 100px;
+    width: 200px;
+    margin: 80px 0px 0px;
+    background-color: white;
+}
+.address p b{
+    background-color: white;
+}
+.phone p b{
+    background-color: white;
+}
+.email p b{
+    background-color: white;
+}
+
+.address p{
+    background-color: white;
+}
+.phone p{
+    background-color: white;
+}
+.email p{
+    background-color: white;
+}
+.container{
+    height: 500px;
+    width: 1230px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.image{
+    background-color: whitesmoke;
+}
+.image img{
+    height: 500px;
+    width: 400px;
+}
+.container .message label,
+.container .message h1,
+.container .message h4,
+.container .message textarea{
+    background: none;
+}
+.message{
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin: 0px 0px 0px 70px;
+}
+.container .message input{ 
+    width: 600px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.container .message #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.my-skills{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+.my-skills .html,
+.my-skills .css,
+.my-skills .js{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+.my-skills{
+    height: 300px;
+    background-color: white;
+}
